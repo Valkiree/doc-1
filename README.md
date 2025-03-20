@@ -1,16 +1,9 @@
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+function App() {
+  return <h1>Hello, World!</h1>;
 }
 
-export default function MyApp() {
-  return (
-    <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
-    </div>
-  );
-}
+ReactDOM.render(<App />, document.getElementById('root'));
+
